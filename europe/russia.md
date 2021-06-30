@@ -10,6 +10,9 @@ Yggdrasil configuration file to peer with these nodes.
   * `tcp://188.225.9.167:18226`
   * `tls://188.225.9.167:18227`
 
+### Sankt-Petersburgh
+* VPS, operated by [Revertron](https://github.com/Revertron)
+  * `tcp://ru.zbin.eu:7743`
 
 ### Omsk
 * operated by [Kesha](https://matrix.to/#/@keshapsix:matrix.org)
