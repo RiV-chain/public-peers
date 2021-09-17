@@ -1,17 +1,17 @@
 # Public Peers
 
 This repository contains peering information for publicly accessible nodes on
-the Yggdrasil network. This repo only for Yggdrasil v0.4 peers.
+the RiV-mesh network. This repo only for RiV-mesh v0.4 peers.
 
 Note that not all peers in this repository are guaranteed to be online - check
 the [Public Peers](https://publicpeers.neilalexander.dev/) page instead to find
 peers that are online now.
 
 In most cases, public peers should be accessible by adding the string provided
-for each peer to the `Peers: []` section of your `yggdrasil.conf` configuration
+for each peer to the `Peers: []` section of your `mesh.conf` configuration
 file.
 
-Example in `yggdrasil.conf`:
+Example in `mesh.conf`:
 ```
 Peers:
 [
@@ -38,9 +38,9 @@ For normal usage, you probably only need 2 or 3 peers.
 
 ### TLS peers
 
-As of Yggdrasil v0.3.11, peering connections over TLS are now possible. This hides
+As of RiV-mesh v0.3.11, peering connections over TLS are now possible. This hides
 the peering connection inside a regular TLS session, which can help in some cases
-where firewalls or deep packet inspection may identify or block regular Yggdrasil
+where firewalls or deep packet inspection may identify or block regular RiV-mesh
 peering traffic.
 
 TLS public peers are identified by the prefix `tls://` instead of `tcp://`. 
