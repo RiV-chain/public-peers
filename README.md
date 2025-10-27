@@ -50,9 +50,7 @@ TLS public peers are identified by the prefix `tls://` instead of `tcp://`:
 ```
 Peers:
 [
-  tls://peer.example.com:443
-  tls://[2001:db8::1]:443
-  tcp://backup-peer.example.com:19019
+  tcp://89.34.18.147:4040
 ]
 ```
 
